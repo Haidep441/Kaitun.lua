@@ -424,7 +424,7 @@ if _G.Switch_Hub_Series_R then
 		F_Level.Transparency = 1
 		game:GetService("Players").LocalPlayer.PlayerGui.Main.Fragments:Clone().Parent = game:GetService("CoreGui")["Switch Hub"].Level
 		game:GetService("CoreGui")["Switch Hub"].Level.Fragments.TextColor3 = Color3.fromRGB(0, 255, 186) 
-		game:GetService("CoreGui")["Switch Hub"].Level.Fragments.Text = "Switch Hub"
+		game:GetService("CoreGui")["Switch Hub"].Level.Fragments.Text = "HaiDepZai Hub"
 		game:GetService("CoreGui")["Switch Hub"].Level.Fragments.Size = UDim2.new(1, 0, 0, 40)
 		game:GetService("CoreGui")["Switch Hub"].Level.Fragments.TextXAlignment = 'Center'
 		game:GetService("CoreGui")["Switch Hub"].Level.Position = UDim2.new(0.5, 0, -0.2, 0)
@@ -433,12 +433,12 @@ if _G.Switch_Hub_Series_R then
 		-- Time
 		local F_Text2 = Instance.new("Frame")
 		F_Text2.Name = "Text2"
-		F_Text2.Parent = game:GetService("CoreGui")["Switch Hub"]
+		F_Text2.Parent = game:GetService("CoreGui")["HaiDepZai Hub"]
 		F_Text2.Size = UDim2.new(1, 0, 1, 0)
 		F_Text2.Position = UDim2.new(0, 0, 0, 0)
 		F_Text2.AnchorPoint = Vector2.new(0.5, 0.5)
 		F_Text2.Transparency = 1
-		game:GetService("Players").LocalPlayer.PlayerGui.Main.Fragments:Clone().Parent = game:GetService("CoreGui")["Switch Hub"].Text2
+		game:GetService("Players").LocalPlayer.PlayerGui.Main.Fragments:Clone().Parent = game:GetService("CoreGui")["HaiDepZai Hub"].Text2
 		game:GetService("CoreGui")["Switch Hub"].Text2.Fragments.TextColor3 = Color3.fromRGB(245, 245, 245)
 		game:GetService("CoreGui")["Switch Hub"].Text2.Fragments.Text = ""
 		game:GetService("CoreGui")["Switch Hub"].Text2.Fragments.Size = UDim2.new(1, 0, 0, 25)
@@ -449,7 +449,7 @@ if _G.Switch_Hub_Series_R then
 		-- Name
 		local F_Text = Instance.new("Frame")
 		F_Text.Name = "Text"
-		F_Text.Parent = game:GetService("CoreGui")["Switch Hub"]
+		F_Text.Parent = game:GetService("CoreGui")["HaiDepZai Hub"]
 		F_Text.Size = UDim2.new(1, 0, 1, 0)
 		F_Text.Position = UDim2.new(0, 0, 0, 0)
 		F_Text.AnchorPoint = Vector2.new(0.5, 0.5)
@@ -464,7 +464,7 @@ if _G.Switch_Hub_Series_R then
 		-- Status
 		local F_Text3 = Instance.new("Frame")
 		F_Text3.Name = "Text3"
-		F_Text3.Parent = game:GetService("CoreGui")["Switch Hub"]
+		F_Text3.Parent = game:GetService("CoreGui")["HaiDepZai Hub"]
 		F_Text3.Size = UDim2.new(1, 0, 1, 0)
 		F_Text3.Position = UDim2.new(0, 0, 0, 0)
 		F_Text3.AnchorPoint = Vector2.new(0.5, 0.5)
